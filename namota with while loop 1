@@ -1,0 +1,22 @@
+x = 2
+y = 1
+
+while(y <= 10):
+    print(x," * ",y," = ",x*y)
+    y = y + 1
+
+print()
+
+z = 1
+x = 3
+while(z <= 10):
+    print(x," * ",z," = ",x*z)
+    z = z + 1
+
+print()
+
+c = 1
+d = 4
+while(c <= 10):
+    print(d," * ",c," = ",d*c)
+    c = c + 1
