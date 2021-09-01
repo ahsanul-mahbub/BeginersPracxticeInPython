@@ -1,0 +1,13 @@
+ls = "* * *"
+
+x = 1
+y = int(input())
+while(x <= y ):
+    print(ls)
+    x = x + 1
+    
+ ......................... with list
+ output
+* * *
+* * *
+* * *
