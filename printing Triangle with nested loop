@@ -1,0 +1,21 @@
+x = 1
+a = int(input("Enter the Row: "))
+b = int(input("Enter the Column: "))
+
+while(x <= b ):                               #1st while creating column
+    y = 1
+    while (y <= a):                           #2nd while creating row
+        if(x >= y):
+            print("* ",end="")
+        y = y + 1
+    print()
+    x = x + 1
+    
+  .............................................
+  output
+  
+Enter the Row: 3
+Enter the Column: 3
+* 
+* * 
+* * * 
