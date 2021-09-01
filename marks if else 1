@@ -1,0 +1,9 @@
+marks=83
+marks1=76
+marks2=65
+if 80<= marks <=100:
+    print("marks get A+",end="\n")
+if 70<= marks1 <=79:
+    print("marks1 get A",end="\n")
+if 60<= marks2 <=69:
+    print("marks2 get A-",end="\n")
