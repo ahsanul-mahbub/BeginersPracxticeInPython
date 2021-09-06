@@ -1,0 +1,15 @@
+#type casting
+a = int(input("Enter the first number:"))
+b = int(input("Enter the secend number:"))
+
+b = a + b
+
+print("b =", b)
+
+
+_______________________
+output 
+Enter the first number:10
+Enter the secend number:2 
+
+b = 12
