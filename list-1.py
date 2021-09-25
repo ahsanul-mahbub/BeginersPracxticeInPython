@@ -11,7 +11,7 @@ print("pop ",A)
 A.remove(1)
 print("Remove = ",A)
 
-A.sort()
+A.sort()                            # choto theke boro shajano
 print("Sort : ",A)
 
 A.reverse()
@@ -21,4 +21,8 @@ A.append(10)
 print("Append : ",A)
 
 A.insert(2,11)
-print("insert : ",A)
+print("insert : ",*A)                      #printing without bracket
+
+B = []                                    # taking input in list
+B.append(int(input()))
+print(B)
